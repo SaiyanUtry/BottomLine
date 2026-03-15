@@ -143,17 +143,12 @@ body{
 
 
 /*images photos de profiles*/
-img{ align-items: center; /* Ajuste la largeur de l'image à 100% de son conteneur */ 
+.img{ align-items: center; /* Ajuste la largeur de l'image à 100% de son conteneur */ 
      height: auto; /* Maintient le ratio d'aspect de l'image */ 
      margin: 0 auto; /* Centre l'image horizontalement */ } 
 
-#image-carree {height: 200px;
-    border-radius:50%; 
-
-}
-#animal1 img{height: 200px;
-    border-radius:50%;
-    
+.image-carree{
+    height: 200px;
 }
 
 
@@ -212,4 +207,9 @@ img{ align-items: center; /* Ajuste la largeur de l'image à 100% de son contene
     margin-right: 20px;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.ligne li a{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
 }
