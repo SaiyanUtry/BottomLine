@@ -57,7 +57,7 @@
 
 /*a mettre en java + onpage color*/
 .menu li a:hover{
-    background-color: #b80000;
+    background-color: #1500b8;
 } 
 
 
@@ -68,7 +68,7 @@
 
 
 #home {
-    color: #ff4f4f; /*current page = colored*/
+    color: #784fff; /*current page = colored*/
 }
 
 
