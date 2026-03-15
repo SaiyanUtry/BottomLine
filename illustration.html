@@ -2,18 +2,56 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="style/css3.css">
-        <meta name="description" content="game illustrations">
+        <link rel="stylesheet" type="text/css" href="style/css1.css">
+        <meta name="description" content="a site to represent our game project">
     	<meta name="keywords" content="Bottom Line">
     	<meta name="author" content="NGC crew">
 		<title>Illustration page</title>
+
+		<style>
+			/*Disposition des images*/
+			#algum{
+				display: flex; 
+    			gap: 10px;  
+			}
+			#album img{
+				max-widght=200
+				height: auto;
+			}
+
+			/*Pour faire des colonnes:*/
+			
+			.ligne:after {
+			    content: "";
+			    clear: both;
+			    display: block;
+			}
+			[class*="col-"] {
+			    float: left;
+			    padding: 0px;
+			}
+			.col-1 {width: 8.33%;}
+			.col-2 {width: 16.66%;}
+			.col-3 {width: 25%;}
+			.col-4 {width: 33.33%;}
+			.col-5 {width: 41.66%;}
+			.col-6 {width: 50%;}
+			.col-7 {width: 58.33%;}
+			.col-8 {width: 66.66%;}
+			.col-9 {width: 75%;}
+			.col-10 {width: 83.33%;}
+			.col-11 {width: 91.66%;}
+			.col-12 {width: 100%;}
+			
+
+				
+		</style>
     </head>
     
     <body>
 
         <div class="menu" id="menu">
             <ul>
-                <li><img src="image/nexgenc1.png" alt="NGC logo" width="50px" id="ngc"></li>
                 <li><a href="index.html" id="home">Home</a> </li>
                 <li><a href="story.html" id="form">Story</a></li>
                 <li><a href="illustration.html" id="about">Illustrations</a></li>
@@ -33,4 +71,39 @@
             <h1 id="front-txt">Illustration</h1>
             <p class="intro-txt"><em>Here you will find the process of the ongoing design of the visual elements for this game, such as backgrounds, pop ups, objets, and charachters.</em></p> 
         </div>
+
+		<div id="sommaire">
+			<ul>
+				<li> <a href="#inspiration"> Inspirations </a></li>
+				<li><a href="#models"> Models 3D </a></li>
+				<li><a href="#prototypes"> Prototypes</a></li>
+				<li><a href="processus">Processus des illustrations finales</a></li>
+			</ul>
+		</div>
+
+		<div id="inspiration">
+			<h2> Inspirations</h2>
+			<p> Tout d'abord il nous avons dû trouver l'atmosphère dans laquelle nous placerions le jeu. Nous nous sommes initialement tournés vers un style pixel art et obscure, où chaque envirronnement aurait une couleur dominante.</p>
+			<p>Cela donne le resultat suivant:</p>
+			<div class=ligne>
+				<div class="col-4">
+					<h3>Cover</h3>
+					<div id="album">
+						<img src="" alt="image/cover.png">
+					</div>
+				</div>
+				<div class="col-4">
+					<h3>Outside</h3>
+					<img src="" alt="image/outside-1.png">
+					<img src="" alt="image/outside-2.png">
+					<img src="" alt="image/outside-3.png">
+				</div>
+				<div class="col-4">
+					<h3>Bunker</h3>
+					<img src="" alt="image/bunker-1.png">
+					<img src="" alt="image/bunker-2.png">
+					<img src="" alt="image/bunker-3.png">
+				</div>
+			</div>
+		</div>
     </body>
