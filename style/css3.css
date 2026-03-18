@@ -86,3 +86,24 @@ body{
     background-color: #171717;
     color: #ffffff;
 }
+
+.feed h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+#feedimg {
+    display: block;
+    margin: auto;
+}
+
+#front-txt{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 30;
+    text-align: center;
+}
+
+.intro-txt{
+    text-align: center;
+}
